@@ -371,11 +371,6 @@ section {
   text-align: center;
 }
 
-div .port-text {
-  padding: 0.5rem 0;
-  margin-top: 0;
-}
-
 .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -411,7 +406,11 @@ div .port-text {
 .portfolios .portfolio-item .hover-item h3 {
   font-size: 1.5rem;
   color: var(--color-white);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+.portfolios .portfolio-item .hover-item p {
+  margin-top: 0;
+  padding-top: 0;
 }
 .portfolios .portfolio-item .hover-item .icons {
   display: flex;
